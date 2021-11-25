@@ -1,32 +1,41 @@
-# ³»ºÎ ½ºÅ©¸³Æ® ¿ÜºÎ·Î ºÐ¸®ÇÏ±â
-* ±âº»Çü
-<srcipt src="JS ÆÄÀÏ °æ·Î"></script>
+# 1. ë‚´ë¶€ ìŠ¤í¬ë¦½íŠ¸ ì™¸ë¶€ë¡œ ë¶„ë¦¬í•˜ê¸°
+* ê¸°ë³¸í˜•   
+``` Javascript
+<srcipt src="JS íŒŒì¼ ê²½ë¡œ"></script>
+```   
 
-# ÀÚ·áÇü
-## ¹®ÀÚÇü
-* ±âº»Çü
-***var º¯¼ö = "»ç¿ëÇÒ ¹®ÀÚ³ª ¼ýÀÚ";***   
-ex) var tag = "<h1> String </h1>";
+# 2. ìžë£Œí˜•
+## 2.1 ë¬¸ìží˜•
+* ê¸°ë³¸í˜•   
+***var ë³€ìˆ˜ = "ì‚¬ìš©í•  ë¬¸ìžë‚˜ ìˆ«ìž";***   
+``` javascript
+var tag = "<h1> String </h1>";
+```   
 
-## ¼ýÀÚÇü
-* ±âº»Çü
-***var º¯¼ö = ¼ýÀÚ;*** ¶Ç´Â ***var º¯¼ö = Number("¹®ÀÚÇü ¼ýÀÚ");***   
-ex) var t = Number("500") // "500" -> 500
+## 2.2 ìˆ«ìží˜•
+* ê¸°ë³¸í˜•   
+***var ë³€ìˆ˜ = ìˆ«ìž;*** ë˜ëŠ” ***var ë³€ìˆ˜ = Number("ë¬¸ìží˜• ìˆ«ìž");***   
+```javascript
+var t = Number("500") // "500" -> 500
+```   
 
-## ³í¸®Çü
-***var º¯¼ö = true or false;*** ¶Ç´Â ***var º¯¼ö = Boolean(µ¥ÀÌÅÍ);***   
-ex) var t = 10>=100 //false   
-ex) var k = Boolean("hello") //true
+## 2.3 ë…¼ë¦¬í˜•
+* ê¸°ë³¸í˜•   
+***var ë³€ìˆ˜ = true or false;*** ë˜ëŠ” ***var ë³€ìˆ˜ = Boolean(ë°ì´í„°);***   
+```javascript
+var t = 10>=100 //false   
+var k = Boolean("hello") //true
+```
 
-## null & undefined µ¥ÀÌÅÍ
-* ***undefined*** : º¯¼ö¿¡ °ªÀÌ µî·ÏµÇ±â ÀüÀÇ ±âº»°ª
-* ***null*** : º¯¼ö¿¡ ÀúÀåµÈ °ªÀÌ nullÀÎ °æ¿ì, ¶Ç´Â º¯¼ö¿¡ ÀúÀåµÈ µ¥ÀÌÅÍ¸¦ ºñ¿ì°íÀÚ ÇÒ ¶§ »ç¿ëÇÏ´Â °ª
+## 2.4 null & undefined ë°ì´í„°
+* ***undefined*** : ë³€ìˆ˜ì— ê°’ì´ ë“±ë¡ë˜ê¸° ì „ì˜ ê¸°ë³¸ê°’
+* ***null*** : ë³€ìˆ˜ì— ì €ìž¥ëœ ê°’ì´ nullì¸ ê²½ìš°, ë˜ëŠ” ë³€ìˆ˜ì— ì €ìž¥ëœ ë°ì´í„°ë¥¼ ë¹„ìš°ê³ ìž í•  ë•Œ ì‚¬ìš©í•˜ëŠ” ê°’
 
-## type of
-* ±âº»Çü
-***typeof º¯¼ö*** ¶Ç´Â ***µ¥ÀÌÅÍ;***   
+## 2.5 type of
+* ê¸°ë³¸í˜•   
+***typeof ë³€ìˆ˜*** ë˜ëŠ” ***ë°ì´í„°;***   
 
 
-## »ïÇ× Á¶°Ç ¿¬»êÀÚ
-* ±âº»Çü
-Á¶°Ç½Ä ? ÀÚ¹Ù½ºÅ©¸³Æ® ÄÚµå1 : ÀÚ¹Ù½ºÅ©¸³Æ® ÄÚµå 2;
+# 3. ì‚¼í•­ ì¡°ê±´ ì—°ì‚°ìž
+* ê¸°ë³¸í˜•   
+***ì¡°ê±´ì‹ ? ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì½”ë“œ1 : ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì½”ë“œ 2;***
