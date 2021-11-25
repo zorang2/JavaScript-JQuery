@@ -1,2 +1,2 @@
 # JavaScript-JQuery
-Study before field training.
+Study before field training in Sicpama.
